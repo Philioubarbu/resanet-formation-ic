@@ -53,13 +53,13 @@
 			<uniqueVersion>false</uniqueVersion>
 			<id>corp1</id>
 			<name>test Repository</name>
-			<url>http://192.168.99.100:8081/repository/maven-releases/</url>
+			<url>http://192.168.3.147:8081/repository/maven-releases/</url>
 		</repository>
 		<snapshotRepository>
 			<uniqueVersion>true</uniqueVersion>
 			<id>propSnap</id>
 			<name>test Snapshots</name>
-			<url>http://192.168.99.100:8081/repository/maven-snapshots/</url>
+			<url>http://192.168.3.147:8081/repository/maven-snapshots/</url>
 			<layout>legacy</layout>
 		</snapshotRepository>
 
@@ -68,7 +68,7 @@
 	<repositories>
 		<repository>
 			<id>nexus-local</id>
-			<url>http://192.168.99.100:8081/repository/maven-public/</url>
+			<url>http://192.168.3.147:8081/repository/maven-public/</url>
 			<releases>
 				<enabled>true</enabled>
 			</releases>
@@ -81,7 +81,7 @@
 	<pluginRepositories>
 		<pluginRepository>
 			<id>nexus-local</id>
-			<url>http://192.168.99.100:8081/repository/maven-public/</url>
+			<url>http://192.168.3.147:8081/repository/maven-public/</url>
 			<releases>
 				<enabled>true</enabled>
 			</releases>
